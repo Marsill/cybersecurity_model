@@ -1,0 +1,12 @@
+Flask>=2.2
+Flask-SQLAlchemy
+psycopg2-binary         # Postgres adapter
+Flask-Migrate           # Alembic migrations
+Flask-JWT-Extended
+passlib[bcrypt]
+pyotp
+python-dotenv
+cryptography           # for log encryption / backup encryption
+requests               # for recaptcha server verify
+pytest
+Werkzeug>=2.2
